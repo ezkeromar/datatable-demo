@@ -1,0 +1,12 @@
+<div class="container">
+    <h3>Data Table Demo</h3>
+    <mat-datatable
+        [datasource]="dataSource"
+        (sendAction)="sendAction($event)"
+        cssClass='custom-datatable'
+        [columns]='columns'
+        [actions]='actions'
+        [search]="true"
+    >
+    </mat-datatable>
+</div>
