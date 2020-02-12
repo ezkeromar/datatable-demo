@@ -9,6 +9,6 @@ export class ExampleDataTableService {
   constructor(private http: HttpClient) {}
 
   getDatas(search, sortType, sortBy, page, maxRows) {
-    return this.http.post('http://datatablepagination.test/api/users', {search, page, maxRows, sortBy, sortType});
+    return this.http.post('http://datatable-demo-api.herokuapp.com/public/api/users', {search, page, maxRows, sortBy, sortType});
   }
 }
