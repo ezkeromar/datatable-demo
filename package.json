@@ -9,7 +9,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "engines" : { "node" : "12.12.0" },
+  "engines": {
+    "node": "12.12.0"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.13",
@@ -22,7 +24,7 @@
     "@angular/platform-browser": "~8.2.13",
     "@angular/platform-browser-dynamic": "~8.2.13",
     "@angular/router": "~8.2.13",
-    "angular-material-datatable": "file:../materialdatatableproject/dist/angular-material-datatable/angular-material-datatable-0.0.1.tgz",
+    "@thecreatiiives/angular-material-datatable": "0.0.4",
     "hammerjs": "^2.0.8",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
